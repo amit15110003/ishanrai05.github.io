@@ -30,7 +30,7 @@
     </section>
     <section class = "tour-highlights">
       <div class = "container heading">
-          <h5><strong>Tour Highlights</strong></h5>
+          <p><strong>Tour Highlights</strong></p>
       </div>
 
       <div class = "container tour-highlights-content">
@@ -55,7 +55,7 @@
         <div id="wrap" style="display: none;">
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
         </div>
-        <div class="author_bio_toggle_wrapper">
+        <div class="toggle_wrapper">
         <a href="#0" id="wrap_toggle">View More</a>
         </div> 
     </div>
@@ -65,13 +65,13 @@
 
         <div class = "container heading">
           <div class = "box">
-          <strong>Trip Iternary</strong>
-            <a class="btn btn-link float-right" type="link" data-toggle="collapse" data-target=".multicollapse" aria-expanded="false" aria-controls="box1 box2 box3">Expand All</a>
+          <strong style="font-size: 15px;">Trip Iternary</strong>
+            <a id="wrap_toggle2"class="btn btn-link float-right expandall" type="link" data-toggle="collapse" data-target=".multicollapse" aria-expanded="false" aria-controls="box1 box2 box3" style="color: #117f69;font-weight:bold;font-size:13px;">Expand All +</a>
       </div>
     </div>
         <div class = "container ">
         <div class="box active">
-          <div class="collapse-control" data-toggle="collapse" href="#box1" aria-expanded="false" aria-controls="box1">Day 1 - Manali to Rohtak Pass<i class="float-right chevron fa fa-chevron-down" aria-hidden="true"></i>
+          <div class="collapse-control expandall" data-toggle="collapse" href="#box1" aria-expanded="false" aria-controls="box1">Day 1 - Manali to Rohtak Pass<i class="float-right chevron fa fa-chevron-down" aria-hidden="true"></i>
           </div>
           <div id="box1" class="collapse multicollapse">
           Vestibulum eget erat metus. Nunc facilisis massa imperdiet, aliquet metus ac, semper libero. Proin augue magna, blandit ut risus suscipit, scelerisque rhoncus velit. Nullam fermentum turpis eget nunc bibendum molestie. Donec scelerisque arcu dui, vel
@@ -80,7 +80,7 @@
         </div>
       </div>
     <div class="box">
-      <div class="collapse-control" data-toggle="collapse" href="#box2" aria-expanded="false" aria-controls="box2">Day 1 - Manali to Rohtak Pass<i class="float-right chevron fa fa-chevron-down" aria-hidden="true"></i>
+      <div class="collapse-control expandall" data-toggle="collapse" href="#box2" aria-expanded="false" aria-controls="box2">Day 2 - Manali to Rohtak Pass<i class="float-right chevron fa fa-chevron-down" aria-hidden="true"></i>
       </div>
       <div id="box2" class="collapse multicollapse">
         Curabitur mauris urna, iaculis vitae nunc vitae, porta ornare sem. Nullam id ipsum sed mi lacinia iaculis. Proin eu ipsum sagittis, ultricies nulla eget, gravida leo. Sed porta eros eu venenatis vestibulum. Vestibulum justo lorem, luctus vel malesuada eget, pellentesque a felis. Duis vulputate libero ipsum, eget ornare ipsum pellentesque a. Nunc pharetra malesuada sem, eget rhoncus velit egestas ac.
@@ -88,7 +88,7 @@
   </div>
   
   <div class="box">
-      <div class="collapse-control" data-toggle="collapse" href="#box3" aria-expanded="false" aria-controls="box3">Day 1 - Manali to Rohtak Pass<i class="float-right chevron fa fa-chevron-down" aria-hidden="true"></i>
+      <div class="collapse-control expandall" data-toggle="collapse" href="#box3" aria-expanded="false" aria-controls="box3">Day 3 - Manali to Rohtak Pass<i class="float-right chevron fa fa-chevron-down" aria-hidden="true"></i>
       </div>
       <div id="box3" class="collapse multicollapse">
         Curabitur mauris urna, iaculis vitae nunc vitae, porta ornare sem. Nullam id ipsum sed mi lacinia iaculis. Proin eu ipsum sagittis, ultricies nulla eget, gravida leo. Sed porta eros eu venenatis vestibulum. Vestibulum justo lorem, luctus vel malesuada eget, pellentesque a felis. Duis vulputate libero ipsum, eget ornare ipsum pellentesque a. Nunc pharetra malesuada sem, eget rhoncus velit egestas ac.
@@ -106,7 +106,7 @@
         <ul>
           <li>
             
-            <span style="text-align:justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+            <span style="text-align:justify;">Lorem ipsum dolor sit amet.</span>
         </li>
         <li>
             
@@ -134,7 +134,7 @@
         <ul>
           <li>
             
-            <span style="text-align:justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+            <span style="text-align:justify;">Lorem ipsum dolor sit amet.</span>
         </li>
         <li>
             
@@ -164,7 +164,7 @@
         <ul>
           <li>
            
-            <span style="text-align:justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+            <span style="text-align:justify;">Lorem ipsum dolor sit amet.</span>
         </li>
         <li>
             
@@ -184,17 +184,29 @@
   </div>  
 </section>
 
-<section id = "budget" >
+<section class = "budget" >
     <div class="container">
-    <div>
-          <h3>Budget</h3>  
-        <div class = "budget-slider" >                
-        <div class = "image-card"><img src = "img/background.jpg" alt="" class="img-fluid"><span class = "stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span><p class="description">Hotel Ishan</p></div>
-        <div class = "image-card"><img src = "img/background.jpg" alt="" class="img-fluid"><span class = "stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span><p class="description">Hotel Ishan</p></div>
-        <div class = "image-card"><img src = "img/background.jpg" alt="" class="img-fluid"><span class = "stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span><p class="description">Hotel Ishan</p></div>
-        <div class = "image-card"><img src = "img/background.jpg" alt="" class="img-fluid"><span class = "stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span><p class="description">Hotel Ishan</p></div>
-        <div class = "image-card"><img src = "img/background.jpg" alt="" class="img-fluid"><span class = "stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span><p class="description">Hotel Ishan</p></div>
-        </div>
+    <div class="box">
+      <div class="collapse-control" data-toggle="collapse" href="#budget" aria-expanded="false" aria-controls="budget" style="font-size: 0.95rem;">Package Cost on: <span style="color:#117f69;">25-July 2018<i class="chevron fa fa-chevron-down ml-1" aria-hidden="true" style="font-size: 0.80rem;"></i></span>
+      </div>
+      <div id = "budget">
+      		<div class = "budget1">
+      			<div class = "row">
+      				<div class = "col-7">
+      					<p><i class="fa fa-check-circle" style="color:#41e08b;font-size: 1.21rem;padding-right: 0.3rem;"></i><strong> Budget</strong><br> <span style="padding-left: 1.5rem;">Rs.15,999<span> <strike class = "text-secondary">&nbsp Rs. 1,000 &nbsp</strike> <span style="background-color:#41e08b; color:white;padding:0.2rem;font-size: 10px;border-radius: 2px;">25% Off</span></p>
+      				</div>
+      				<div class = "col-5"><button class="btn-hover color float-right mr-2">Enquire Now</button>
+      				</div>
+      			</div>
+        	<div class = "budget-slider collapse show" >                
+        	<div class = "image-card"><img src = "img/background.jpg" alt="" class="img-fluid"><span class = "stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span><p class="description">Hotel Ishan</p></div>
+        	<div class = "image-card"><img src = "img/background.jpg" alt="" class="img-fluid"><span class = "stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span><p class="description">Hotel Ishan</p></div>
+        	<div class = "image-card"><img src = "img/background.jpg" alt="" class="img-fluid"><span class = "stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span><p class="description">Hotel Ishan</p></div>
+        	<div class = "image-card"><img src = "img/background.jpg" alt="" class="img-fluid"><span class = "stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span><p class="description">Hotel Ishan</p></div>
+        	<div class = "image-card"><img src = "img/background.jpg" alt="" class="img-fluid"><span class = "stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span><p class="description">Hotel Ishan</p></div>
+        	</div>
+    		</div>
+    </div>
       </div>
   </div>
   <div style = "height:70px"></div> 
@@ -224,6 +236,28 @@
     else 
       {   
         $("#wrap_toggle").text("View More")
+      }
+    
+  });  
+  
+});
+
+    </script>
+    <script type="text/javascript">
+    	jQuery(document).ready(function($)
+    {
+  
+   $("#wrap_toggle2").click(function()
+    {
+    
+    
+    if ($("#wrap_toggle2").text() == "Expand All +")
+      {     
+        $("#wrap_toggle2").html("Collapse All -")
+      }
+    else 
+      {   
+        $("#wrap_toggle2").text("Expand All +")
       }
     
   });  
@@ -263,16 +297,16 @@ $(".collapse").on("shown.bs.collapse", toggleChevron);
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2.5,
-        slidesToScroll: 2,
+        slidesToShow: 3,
+        slidesToScroll: 2.5,
         dots: false
       }
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 2.5,
-        slidesToScroll: 1,
+        slidesToShow: 3,
+        slidesToScroll: 1.5,
         dots: false
       }
     }

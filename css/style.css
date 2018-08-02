@@ -43,8 +43,13 @@ body{
     min-width:100vw;
 }
 
+.headings p{
+  font-size: 1.1rem;
+}
+
 .tour-highlights{
-  margin-top:20%;
+  margin-top:4rem;
+  margin-bottom: 4rem;
 }
 .tour-highlights-content{
   font-size:15px;
@@ -52,10 +57,12 @@ body{
 
 ul{
   list-style-type: none;
-  margin-left: 0;
+  margin-left: -25px;
 }
 li{
   line-height:1.8;
+      font-size: small;
+    font-weight: 450;
 }
 .tour-highlights li:before {    
 font-family: 'FontAwesome';
@@ -83,8 +90,21 @@ color: #117f69;
     
 }
 
+.expandall{
+  color: #117f69;
+  font-size: 13px!important;
+}
+.expandall i{
+  color: black;
+  font-size: 13px!important;
+}
+
 .box {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+    font-size:13px;
+}
+.trip-iternary{
+  margin-bottom: 4rem;
 }
 
 .collapse-control {
@@ -125,24 +145,28 @@ color: #117f69;
 }
 
 .bluebg{
-  background-color: #8bccc3;
-      padding: 7px 15px;
-    margin: 0px -15px;
+      background-color: #8bccc3;
+    padding: 11px 16px;
+    margin: 1.3rem -15px;
+    font-size: 0.8rem;
+    color: white;
 }
 
 .Excluded li:before {    
 font-family: 'FontAwesome';
 content: "\f057";
 margin:0 5px 0 -15px;
-color: #117f69;
+color: #f00017;
 }
 .redbg{
-  background-color: #8bccc3;
-      padding: 7px 15px;
-    margin: 0px -15px;
+  background-color: #E7929A;
+   padding: 11px 16px;
+    margin: 1.3rem -15px;
+    font-size: 0.8rem;
+    color: white;
 }
 .image-card{
-  margin:0 1rem;
+  margin:0 0.5rem;
   display:block;
   max-width: 100%;
   border: 0px solid white;
@@ -165,4 +189,13 @@ margin-left:7px;
   font-size:9px;
   color:#f2e126;
   margin-left: 7px;
+}
+
+.budget1{
+ 
+  padding-top: 2rem;
+  padding-left: 0.7rem;
+  -webkit-box-shadow: -3px 3px 6px 0px rgba(0,0,0,0.27);
+-moz-box-shadow: -3px 3px 6px 0px rgba(0,0,0,0.27);
+box-shadow: -3px 3px 6px 0px rgba(0,0,0,0.27);
 }
