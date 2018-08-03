@@ -170,7 +170,7 @@ color: #008080;
 font-family: 'FontAwesome';
 content: "\f058";
 margin:0 5px 0 -15px;
-color: #41e08b;
+color: #40e588;
 }
 .optionalAddons li:before {    
 font-family: 'FontAwesome';
@@ -180,7 +180,7 @@ color: #008080;
 }
 
 .bluebg{
-      background-color: #8bccc3;
+      background-color: #008080;
     padding: 11px 16px;
     margin: 1.3rem -15px;
     font-size: 0.8rem;
@@ -191,10 +191,10 @@ color: #008080;
 font-family: 'FontAwesome';
 content: "\f057";
 margin:0 5px 0 -15px;
-color: #f00017;
+color: #e33c36;
 }
 .redbg{
-  background-color: #E7929A;
+  background-color: #e33c36;
    padding: 11px 16px;
     margin: 1.3rem -15px;
     font-size: 0.8rem;
