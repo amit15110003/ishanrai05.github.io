@@ -101,7 +101,7 @@ li{
 font-family: 'FontAwesome';
 content: "\f054";
 margin:0 5px 0 -15px;
-color: #117f69;
+color: #008080;
 }
 #wrap_toggle 
 {
@@ -112,7 +112,7 @@ color: #117f69;
     line-height: 35px;
     background: white;
     text-align: center;
-    color: #117f69;
+    color: #008080;
     font-weight: bold;
     text-decoration:none;
 }
@@ -125,7 +125,7 @@ color: #117f69;
 }
 
 .expandall{
-  color: #117f69;
+  color: #008080;
   font-size: 13px!important;
 }
 .expandall i{
@@ -176,7 +176,7 @@ color: #41e08b;
 font-family: 'FontAwesome';
 content: "\f058";
 margin:0 5px 0 -15px;
-color: #117f69;
+color: #008080;
 }
 
 .bluebg{
