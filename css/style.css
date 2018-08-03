@@ -1,5 +1,6 @@
 body{
   overflow-x: hidden;
+  color:#444444;
   font-family: Roboto;
   letter-spacing: 0.7px;
 }
@@ -138,7 +139,7 @@ color: #117f69;
     text-align: justify!important;
 }
 .trip-iternary{
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .collapse-control {
@@ -253,7 +254,7 @@ box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08);
 }
 
 .tour-policy{
-  margin-top:6rem;
+  margin-top:2rem;
 }
 
 footer{
@@ -279,4 +280,15 @@ box-shadow: 0px 0px 10px rgba(140,160,140,0.3);
   .budget1{
     height:20rem;
   }
+}
+
+.multicollapse{
+  background-color: #fafbfb;
+  padding:1rem 1rem;
+  margin:0 -1rem;
+}
+.bggray{
+  background-color: #fafbfb;
+  height:2rem;
+  margin-bottom: 2rem;
 }
