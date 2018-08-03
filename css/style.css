@@ -71,13 +71,18 @@ body{
     background-image: linear-gradient(107deg, #40e588, #0a8f81 85%, #008080);
 }
 .bgimage{
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100%;
-}
 
+    background-position: center;
+    background-image:url('../img/background.jpg');
+    background-size: cover;
+    height:500px;
+    background-repeat: no-repeat;
+}
+@media(max-width:500px){
+    .bgimage {
+    height:14rem!important;
+  }
+}
 .headings p{
   font-size: 1.1rem;
 }
