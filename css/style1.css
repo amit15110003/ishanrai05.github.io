@@ -1,0 +1,10 @@
+.contact-details li{list-style: none;line-height: 16px;}
+.contact-details .dl{font-size: 16px;line-height: 6px;}
+.contact-details .ds{font-size: 12px;line-height: 6px;}
+.bg-gred{background: linear-gradient(-90deg, #008080, #40e588);}
+.bg-gred h5{color:#fff;}
+.footer{background: linear-gradient(-90deg, #008080, #40e588);}
+.footer ul li a{text-decoration: none;color: #fff !important;}
+.footer a{text-decoration: none;color: #fff;}
+.pt{padding-top: 1rem;}
+.pb{padding-bottom: 1rem;}
